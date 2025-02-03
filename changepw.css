@@ -1,0 +1,129 @@
+/* Gaya umum untuk halaman */
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(120deg, #ffe6fa, #e0f7fa); /* Latar belakang lucu */
+    font-family: 'Ramaraja', serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Judul utama */
+h1 {
+    font-size: 3em;
+    color: #ff6f91;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+h1::after {
+    content: "🐾";
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+/* Subjudul */
+h3 {
+    font-size: 1.8em;
+    color: #ff4081;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ffe6e6, #fff4e6);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 20px auto;
+}
+
+/* Styling untuk tabel dan formulir */
+form {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+td {
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Input fields styling */
+input[type="password"],
+input[type="submit"],
+input[type="reset"] {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="password"] {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* Tombol submit dan reset */
+input[type="submit"] {
+    background-color: #ff4081;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6f91;
+}
+
+input[type="reset"] {
+    background-color: #f0f0f0;
+    color: #ff4081;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"]:hover {
+    background-color: #ffefef;
+}
+
+/* Link untuk membatalkan */
+a {
+    font-size: 1.2em;
+    color: #ff4081;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ffe6e6, #fff4e6);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+    background: linear-gradient(45deg, #ffb6c1, #ffd1dc);
+}
+
+/* Desain untuk garis */
+hr {
+    border: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

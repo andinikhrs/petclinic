@@ -1,0 +1,112 @@
+/* Gaya umum untuk halaman */
+body {
+    font-family: 'Ramaraja', serif;
+    background: linear-gradient(120deg, #ffefdb, #ffe6e6);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Judul utama */
+h1 {
+    font-size: 3em;
+    color: #ff6f91;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 2em;
+    color: #ff4081;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ffe6e6, #fff4e6);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 20px auto;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #723535;
+    text-align: center;
+}
+
+th {
+    background-color: #c47171;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Tombol aksi */
+a {
+    color: #ff4081;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: #ff6f91;
+    text-decoration: underline;
+}
+
+/* Form styling */
+form p {
+    font-size: 1.2em;
+    color: #333;
+    background: linear-gradient(45deg, #ffe6e6, #fff4e6);
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+select, input[type="submit"] {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4081;
+    transform: scale(1.05);
+}
+
+/* Back button */
+p a {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+p a:hover {
+    background-color: #66bb6a;
+    transform: scale(1.05);
+}
